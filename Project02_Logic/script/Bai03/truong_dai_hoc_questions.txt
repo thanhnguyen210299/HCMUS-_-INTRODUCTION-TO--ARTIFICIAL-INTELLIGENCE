@@ -1,0 +1,20 @@
+setof(Person,cung_gioi_tinh(Person,'Tran Minh Triet'),List).
+setof(Person,luong_bang_nhau(Person,'Nguyen Thi Cam Loan'),List).
+setof(Person,luong_bang_nhau(Person,'Nguyen Thi Thanh Mai'),List).
+setof(Person,cung_que_quan(Person,'Tran Trung Dung'),List).
+setof(Person,cung_que_quan(Person,'Ly Quoc Ngoc'),List).
+setof(Person,cung_hoc_vi(Person,'Vu Hai Quan'),List).
+setof(Person,cung_hoc_vi(Person,'Tran Minh Triet'),List).
+setof(Person,cung_hoc_ham(Person,'Vu Hai Quan'),List).
+setof(Person,cung_hoc_ham(Person,'Le Hoai Bac'),List).
+truong_khoa(Person,CNTT).
+truong_khoa(Person,'Vat ly').
+truong_khoa(Person,'Toan hoc').
+setof(Person,giao_vien_thuoc_bo_mon(Person,'Hoa ly'),List).
+setof(Person,giao_vien_thuoc_bo_mon(Person,'Khoa hoc may tinh'),List).
+setof(Person,giao_vien_cung_bo_mon(Person,'Tran Trung Dung'),List).
+setof(Person,giao_vien_cung_bo_mon(Person,'Le Hoai Bac'),List).
+truong_phong_ban(Person,'Phong ke hoach tai chinh').
+setof(Person,cung_gioi_tinh(Person,'Nguyen Thi Thanh Mai'),List).
+setof(Person,giao_vien_thuoc_phong_ban(Person,'Phong dao tao'),List).
+setof(Person,giao_vien_thuoc_phong_ban(Person,'Phong ke hoach tai chinh'),List).
